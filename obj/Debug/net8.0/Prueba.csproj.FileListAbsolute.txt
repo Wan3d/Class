@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\Leguajes y Automatas\Prueba\obj\Debug\net8.0\refint\Prueba.d
 C:\Users\HP\Desktop\Leguajes y Automatas\Prueba\obj\Debug\net8.0\Prueba.pdb
 C:\Users\HP\Desktop\Leguajes y Automatas\Prueba\obj\Debug\net8.0\Prueba.genruntimeconfig.cache
 C:\Users\HP\Desktop\Leguajes y Automatas\Prueba\obj\Debug\net8.0\ref\Prueba.dll
+C:\Users\HP\Desktop\Leguajes y Automatas\Prueba\obj\Debug\net8.0\Prueba.sourcelink.json
