@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace Prueba
 {
@@ -10,7 +9,9 @@ namespace Prueba
     {
         static void Main(string[] args) 
         {
-
-       }
+            using (Lecturas L = new Lecturas("prueba.cpp"))
+            {
+            }
+        }
     }
 }
