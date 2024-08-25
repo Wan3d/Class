@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Leguajes y Automatas\\Prueba\\Prueba.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Lenguajes y Automatas\\Prueba\\Prueba.csproj",
       "projectName": "Prueba",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Leguajes y Automatas\\Prueba\\Prueba.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Lenguajes y Automatas\\Prueba\\Prueba.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Leguajes y Automatas\\Prueba\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Lenguajes y Automatas\\Prueba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

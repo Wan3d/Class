@@ -29,5 +29,62 @@ namespace Prueba
             archivo.Close();
             log.Close();
         }
+        public void Copy()
+        {
+        while (!archivo.EndOfStream)
+    {
+       log.Write((char)archivo.Read()); 
+    }
+        }
+         public void Encrypt()
+        {
+            char c;
+        while (!archivo.EndOfStream)
+    {
+        c = (char)archivo.Read();
+        if (char.IsLetter(c))
+        {
+        log.Write((char)(c+2));
+        }
+        else
+        {
+        log.Write(c);
+        }
+    
+        }
+        }
+        public void DesEncrypt()
+        {
+            char c;
+        while (!archivo.EndOfStream)
+    {
+        c = (char)archivo.Read();
+        if (char.IsLetter(c))
+        {
+        log.Write((char)(c-2));
+        }
+        else
+        {
+        log.Write(c);
+        }
+    
+        }
+        }
+        public void Encrypt2()
+        {
+        char c;
+        while (!archivo.EndOfStream)
+        {
+        c = (char)archivo.Read();
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+        {
+        log.Write((char)('o'));
+        }
+        else
+        {
+        log.Write(c);
+        }
+        }
+        }
     }
 }
